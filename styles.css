@@ -1,0 +1,222 @@
+/* Fuente */
+body {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* Encabezado */
+header {
+    padding-top: 60px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center center;
+    transition: all 0.3s ease-in-out;
+    background-color: rgb(21, 15, 41);
+    color: #dadfed;
+
+    width: 100%;
+    height: 560px;
+}
+
+header img {
+    height: 500px;
+    width: 50%;
+    padding-top: 20px;
+    display: block;
+    align-items: center;
+    margin: 0 auto;
+}
+
+header h1 {
+    margin: 0 auto;
+    text-align: center;
+}
+
+p {
+    font-size: 18px;
+    line-height: 200%
+}
+
+ul li {
+    line-height: 200%;
+    font-size: 18px;
+}
+
+.inicio {
+    background-color: #bfc1c2;
+    display: inline-block;
+    padding: 20px;
+    padding-top: 80px;
+}
+
+.titulo {
+    width: 100%;
+}
+
+.texto {
+    font-size: 18px;
+}
+
+.derecha {
+    float: right;
+    width: 35%;
+    padding-right: 20px;
+}
+
+.izquierda {
+    width: 60%;
+    float: left;
+}
+
+.derecha .imagen {
+    width: 100%;
+}
+.center{
+    text-align: center;
+}
+/* Barra de navegación */
+nav {
+    background-color: #555f8f;
+    padding-left: 40px;
+    height: 40px;
+    padding-top: 20px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-right: 20px;
+
+}
+
+nav a {
+    color: #dadfed;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+nav a:hover {
+    color: #98a0e7;
+}
+
+/* Secciones */
+section {
+    padding: 50px;
+}
+
+section h2 {
+    color: #120907;
+    font-size: 30px;
+    margin-top: 20px;
+}
+
+article h3 {
+    display: block;
+    width: 100%;
+}
+
+hr {
+    display: block;
+    width: 100%;
+    background-color: #1e243b;
+}
+
+.ejemplos {
+    display: flex;
+  justify-content: space-between;
+    width: 100%;
+    background-color: #98a0e7;
+
+}
+
+.car {
+    height: 468px;
+    width: 400px;
+    display: inline;
+    float: left;
+    box-shadow:
+        inset 0 -3em 3em rgba(0, 0, 0, 0.1),
+        0 0 0 2px rgb(255, 255, 255),
+        0.3em 0.3em 1em #1a1a1b;
+    margin: 25px;
+    padding: 10px;
+}
+
+.car p {
+    line-height: 20px;
+    font-size: 16px;
+}
+
+.car img {
+    display: block;
+    align-items: center;
+    margin: auto;
+    width: 300px;
+    height: 100px;
+
+}
+
+
+.mockup-container{
+    width: 100%;
+    display: block;
+}
+.car2{
+    width: 100%;
+    display: block;
+    align-items: center;
+    text-align: center;
+
+}
+.imagenesMockup{
+    width: 60%;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 30px;
+}
+.carAcerca{
+    display: grid;
+    justify-content: center;
+    grid-template-columns: auto;
+    width: 60%;
+    height: 350px !important;
+    align-content: center;
+    text-align: left;
+    margin: 0 auto;
+    box-shadow:
+        inset 0 -3em 3em rgba(0, 0, 0, 0.1),
+        0 0 0 2px rgb(255, 255, 255),
+        0.3em 0.3em 1em #1a1a1b;
+    margin-bottom: 30px;
+}
+.carAcerca h1{
+    text-align: center;
+}
+/* Pie de página */
+footer {
+    background-color: #555f8f;
+    color: #dadfed;
+    font-size: 12px;
+    padding: 10px;
+    text-align: center;
+}
+
+footer p {
+    margin: 0;
+}
+
+
+
+/* Estilos para la sección "tema seleccionado" */
